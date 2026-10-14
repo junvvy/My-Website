@@ -2,35 +2,37 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 47.5px;
 }
-
-/*Navigation Bar CSS styling below*/
-nav {
-    position: sticky;
+/* Top Navigation Bar CSS styling below*/
+#top-nav {
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items:center;
     background-color: #727272;
-    padding: 0 20px;
+    padding: 0px;
 }
 
-nav p {
-    padding: 0;
-    margin: 0;
-    color: white;
-    font-family: 'Rufina', sans-serif;
-    font-size: 20;
-}
 
-nav ul {
+#top-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
     display:flex;
+    flex: 1;
+    margin-left: 200px;
 }
 
-nav li a {
+#top-nav li {
+    flex: 1;
+}
+
+#top-nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -42,14 +44,36 @@ nav li a {
 nav li a:hover {
     background-color: #111111;
 }
-/*End of Navbar CSS styling*/
+
+/*Left-Navbar Styling*/
+
+#left-nav {
+    position: fixed;
+    top: 47.5px;
+    left: 0;
+    width: 160px;
+    padding: 20px;
+    height: calc(100vh - 60px);
+    background-color:#727272;
+
+
+}
+#left-nav h1 {
+    color: white;
+    font-family: 'Rufina', sans-serif;
+}
+/*End of Navbar's CSS styling*/
+
 /*
 Color palette ot consider: Soiree
 */
+
 /*Home CSS styling below*/
-#home {
-    min-height: 100vh;
+.page-sections {
+    margin-left: 200px;
+    top: 47.5px;
 }
+
 #home h1 {
     font-family: "Rufina";
     font-size: 10vh;
@@ -63,5 +87,6 @@ Color palette ot consider: Soiree
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 47.5px;
 }
 
