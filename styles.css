@@ -1,28 +1,11 @@
+
+/*Navigation Bar CSS styling below*/
 nav {
-    display: flex;                      /* */
+    display: flex;
     justify-content: space-between;
     align-items:center;
     background-color: #727272;
     padding: 0 20px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #727272;
-    display:flex;
-}
-
-ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul li a:hover {
-    background-color: #111111;
 }
 
 nav p {
@@ -31,6 +14,31 @@ nav p {
     color: white;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111111;
+}
+
+section {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
 html {
     scroll-behavior: smooth;
 }
+
