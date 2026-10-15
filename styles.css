@@ -1,8 +1,20 @@
+/* Things I want to consider and keep note of while working on
+this project:
+
+Color palette to consider: Soiree
+#AAABB0 - dark light grey
+#A0BFDC - pastel lgiht blue
+#DFE0E2 - light grey
+#263C49 - navy
+#10120D - Black
+*/
+
 /*Body CSS Styling*/
 body {
     margin: 0;
     padding: 0;
     padding-top: 47.5px;
+    background-color: #DFE0E2;
 }
 /* Top Navigation Bar CSS styling below*/
 #top-nav {
@@ -13,8 +25,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    background-color: #727272;
+    background-color: #161b5c;
     padding: 0px;
+    z-index: 999;
 }
 
 
@@ -34,7 +47,7 @@ body {
 
 #top-nav li a {
     display: block;
-    color: white;
+    color: #DFE0E2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,8 +55,9 @@ body {
 }
 
 nav li a:hover {
-    background-color: #111111;
+    background-color: #0a0d2c;
 }
+
 
 /*Left-Navbar Styling*/
 
@@ -54,19 +68,18 @@ nav li a:hover {
     width: 160px;
     padding: 20px;
     height: calc(100vh - 60px);
-    background-color:#727272;
+    background-color:#161b5c;
 
 
 }
 #left-nav h1 {
-    color: white;
+    color: #DFE0E2;
     font-family: 'Rufina', sans-serif;
+    margin: 0;
+    
 }
 /*End of Navbar's CSS styling*/
 
-/*
-Color palette ot consider: Soiree
-*/
 
 /*Home CSS styling below*/
 .page-sections {
@@ -74,9 +87,10 @@ Color palette ot consider: Soiree
     top: 47.5px;
 }
 
-#home h1 {
-    font-family: "Rufina";
-    font-size: 10vh;
+#home p {
+    font-family: "Space Mono";
+    font-size: 2vh;
+    color: #161b5c;
 }
 
 .page-sections section {
