@@ -13,7 +13,7 @@ Color palette to consider: Soiree
 body {
     margin: 0;
     padding: 0;
-    padding-top: 47.5px;
+    padding-top: 0;
     background-color: #DFE0E2;
 }
 /* Top Navigation Bar CSS styling below*/
@@ -38,7 +38,6 @@ body {
 
     display:flex;
     flex: 1;
-    margin-left: 200px;
 }
 
 #top-nav li {
@@ -59,31 +58,8 @@ nav li a:hover {
 }
 
 
-/*Left-Navbar Styling*/
-
-#left-nav {
-    position: fixed;
-    top: 47.5px;
-    left: 0;
-    width: 160px;
-    padding: 20px;
-    height: calc(100vh - 60px);
-    background-color:#161b5c;
-
-
-}
-#left-nav h1 {
-    color: #DFE0E2;
-    font-family: 'Rufina', sans-serif;
-    margin: 0;
-    
-}
-/*End of Navbar's CSS styling*/
-
-
 /*Home CSS styling below*/
 .page-sections {
-    margin-left: 200px;
     top: 47.5px;
 }
 
